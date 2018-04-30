@@ -5,7 +5,7 @@ const articlesController = require("../../controllers/Articles");
 router
   .route("/")
   .get(articlesController.get)
-  .post(articlesController.create)
+  .post(  articlesController.create)
   .delete(articlesController.delete);
 
 module.exports = router;
